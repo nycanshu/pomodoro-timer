@@ -49,3 +49,23 @@ body {
 .break {
   color: var(--secondary-color-darker);
 }
+
+table {
+  width: 60%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #6078ed;
+  color: white;
+}

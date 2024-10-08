@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="manifest" href="manifest.json" />
     <link rel="apple-touch-icon" href="logo240.png" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="main">
@@ -27,8 +28,19 @@
           value="Reset Timer"
         />
       </div>
+      <h3>Time Log</h3>
+      <table id="timeLogTable" border="1">
+        <thead>
+          <tr>
+            <th>Session</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody id="timeLogBody">
+          <!-- Logs will be added here -->
+        </tbody>
+      </table>
     </div>
-    <link rel="stylesheet" href="style.css" />
     <script src="index.js"></script>
     <script src="pomodoro.js"></script>
   </body>
